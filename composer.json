@@ -1,0 +1,23 @@
+{
+    "name": "mindweb/resque-persist",
+    "description": "",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marcin Czołnowski",
+            "email": "marcin@czolnowski.net"
+        }
+    ],
+    "require": {
+        "mindweb/subscriber": "dev-master",
+        "mindweb/recognizer": "dev-master",
+        "mindweb/persist": "dev-master",
+        "chrisboulton/php-resque": "1.2.x"
+    },
+    "autoload": {
+        "psr-0": {
+            "Mindweb\\ResquePersist\\": "src"
+        }
+    }
+}

@@ -1,0 +1,388 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "88bd3ccc9354dc2da099c5896b0b2f55",
+    "packages": [
+        {
+            "name": "chrisboulton/php-resque",
+            "version": "1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/chrisboulton/php-resque.git",
+                "reference": "0549d6c88a4aed934655b7c03b6153349d6c3ad0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/chrisboulton/php-resque/zipball/0549d6c88a4aed934655b7c03b6153349d6c3ad0",
+                "reference": "0549d6c88a4aed934655b7c03b6153349d6c3ad0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Resque": "lib"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Chris Boulton",
+                    "email": "chris@bigcommerce.com"
+                }
+            ],
+            "description": "Redis backed library for creating background jobs and processing them later. Based on resque for Ruby.",
+            "homepage": "http://www.github.com/chrisboulton/php-resque/",
+            "keywords": [
+                "background",
+                "job",
+                "redis",
+                "resque"
+            ],
+            "time": "2012-10-13 07:28:16"
+        },
+        {
+            "name": "mindweb/persist",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mindwebpl/persist.git",
+                "reference": "666e3765ac72ed85af34bb5f432286b14278e160"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mindwebpl/persist/zipball/666e3765ac72ed85af34bb5f432286b14278e160",
+                "reference": "666e3765ac72ed85af34bb5f432286b14278e160",
+                "shasum": ""
+            },
+            "require": {
+                "mindweb/recognizer": "dev-master",
+                "mindweb/subscriber": "dev-master",
+                "symfony/event-dispatcher": "~2.3,<2.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Mindweb\\Persist\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marcin Czołnowski",
+                    "email": "marcin@czolnowski.net"
+                }
+            ],
+            "time": "2015-04-18 18:29:20"
+        },
+        {
+            "name": "mindweb/recognizer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mindwebpl/recognizer.git",
+                "reference": "4442734109d813beeb959c02cd9238e4b639f36d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mindwebpl/recognizer/zipball/4442734109d813beeb959c02cd9238e4b639f36d",
+                "reference": "4442734109d813beeb959c02cd9238e4b639f36d",
+                "shasum": ""
+            },
+            "require": {
+                "mindweb/subscriber": "dev-master",
+                "symfony/event-dispatcher": "~2.3,<2.7",
+                "symfony/http-foundation": "~2.3,<2.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Mindweb\\Recognizer\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marcin Czołnowski",
+                    "email": "marcin@czolnowski.net"
+                }
+            ],
+            "time": "2015-04-18 18:08:54"
+        },
+        {
+            "name": "mindweb/subscriber",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mindwebpl/subscriber.git",
+                "reference": "829cfcbbcb11d1b52728993b1e5c927b984be3ac"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mindwebpl/subscriber/zipball/829cfcbbcb11d1b52728993b1e5c927b984be3ac",
+                "reference": "829cfcbbcb11d1b52728993b1e5c927b984be3ac",
+                "shasum": ""
+            },
+            "require": {
+                "symfony/config": "~2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Mindweb\\Subscriber\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marcin Czołnowski",
+                    "email": "marcin@czolnowski.net"
+                }
+            ],
+            "time": "2015-04-18 16:28:54"
+        },
+        {
+            "name": "symfony/config",
+            "version": "v2.6.6",
+            "target-dir": "Symfony/Component/Config",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Config.git",
+                "reference": "d91be01336605db8da21b79bc771e46a7276d1bc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Config/zipball/d91be01336605db8da21b79bc771e46a7276d1bc",
+                "reference": "d91be01336605db8da21b79bc771e46a7276d1bc",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "symfony/filesystem": "~2.3"
+            },
+            "require-dev": {
+                "symfony/phpunit-bridge": "~2.7"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.6-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Config\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Symfony Config Component",
+            "homepage": "http://symfony.com",
+            "time": "2015-03-30 15:54:10"
+        },
+        {
+            "name": "symfony/event-dispatcher",
+            "version": "v2.6.6",
+            "target-dir": "Symfony/Component/EventDispatcher",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/EventDispatcher.git",
+                "reference": "70f7c8478739ad21e3deef0d977b38c77f1fb284"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/70f7c8478739ad21e3deef0d977b38c77f1fb284",
+                "reference": "70f7c8478739ad21e3deef0d977b38c77f1fb284",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "psr/log": "~1.0",
+                "symfony/config": "~2.0,>=2.0.5",
+                "symfony/dependency-injection": "~2.6",
+                "symfony/expression-language": "~2.6",
+                "symfony/phpunit-bridge": "~2.7",
+                "symfony/stopwatch": "~2.3"
+            },
+            "suggest": {
+                "symfony/dependency-injection": "",
+                "symfony/http-kernel": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.6-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\EventDispatcher\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Symfony EventDispatcher Component",
+            "homepage": "http://symfony.com",
+            "time": "2015-03-13 17:37:22"
+        },
+        {
+            "name": "symfony/filesystem",
+            "version": "v2.6.6",
+            "target-dir": "Symfony/Component/Filesystem",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Filesystem.git",
+                "reference": "4983964b3693e4f13449cb3800c64a9112c301b4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Filesystem/zipball/4983964b3693e4f13449cb3800c64a9112c301b4",
+                "reference": "4983964b3693e4f13449cb3800c64a9112c301b4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "symfony/phpunit-bridge": "~2.7"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.6-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Filesystem\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Symfony Filesystem Component",
+            "homepage": "http://symfony.com",
+            "time": "2015-03-22 16:55:57"
+        },
+        {
+            "name": "symfony/http-foundation",
+            "version": "v2.6.6",
+            "target-dir": "Symfony/Component/HttpFoundation",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/HttpFoundation.git",
+                "reference": "8a6337233f08f7520de97f4ffd6f00e947d892f9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/HttpFoundation/zipball/8a6337233f08f7520de97f4ffd6f00e947d892f9",
+                "reference": "8a6337233f08f7520de97f4ffd6f00e947d892f9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "symfony/expression-language": "~2.4",
+                "symfony/phpunit-bridge": "~2.7"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.6-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\HttpFoundation\\": ""
+                },
+                "classmap": [
+                    "Symfony/Component/HttpFoundation/Resources/stubs"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Symfony HttpFoundation Component",
+            "homepage": "http://symfony.com",
+            "time": "2015-04-01 16:50:12"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "mindweb/subscriber": 20,
+        "mindweb/recognizer": 20,
+        "mindweb/persist": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
