@@ -20,10 +20,13 @@ class Persist extends Adapter\Persist
     {
         Resque::setBackend($this->configuration['host'] . ':' . $this->configuration['port']);
 
-        Resque::enqueue(
-            $this->configuration['queue'],
-            $this->configuration['job'],
-            $persistEvent->getAttributionEvent()->getAttribution()
+        $persistEvent->addPersistResult(
+            'resque',
+            Resque::enqueue(
+                $this->configuration['queue'],
+                $this->configuration['job'],
+                $persistEvent->getAttribution()
+            )
         );
     }
 
